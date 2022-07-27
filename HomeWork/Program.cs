@@ -20,3 +20,20 @@ void ShowArray(string[] array)
         Console.WriteLine();
 }
 
+
+string[] CreateNewArray(string[] array)
+{
+    string[] newarray = new string[size];
+       for(int i = 0; i < array.Length; i++)
+        if(array[i].Length <= 3)
+        
+    return newarray;
+}
+
+
+string[] names = CreateStringArray(size);
+
+
+
+
+//Задача 2.Написать программу, которая на вход принимает 2 массива строк и возвращает массив из попарно объединеннных исходных элементов

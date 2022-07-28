@@ -21,19 +21,21 @@ void ShowArray(string[] array)
 }
 
 
-string[] CreateNewArray(string[] array)
+int NumberOfWords(string[] array)
 {
-    string[] newarray = new string[size];
-       for(int i = 0; i < array.Length; i++)
+    int count = 0;
+    int length = array.Length;
+    for(int i = 0; i < array.Length; i++)
         if(array[i].Length <= 3)
-        
-    return newarray;
+            count++;
+
+    return count;
 }
 
+Console.Write("Input number of names: ");
+int size = Convert.ToInt32(Console.ReadLine());
 
-string[] names = CreateStringArray(size);
+string[] array = CreateStringArray(size);
 
+Console.WriteLine("Number of word is " + NumberOfWords(array));
 
-
-
-//Задача 2.Написать программу, которая на вход принимает 2 массива строк и возвращает массив из попарно объединеннных исходных элементов

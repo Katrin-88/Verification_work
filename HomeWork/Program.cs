@@ -37,3 +37,15 @@ string[] ThreeValueArray(string[] array, int count)
     }
     return newArray;
 }
+
+
+string ShowArray(string[] array)
+{
+    string result = string.Empty;
+    for(int i = 0; i < array.Length; i++)
+    {
+      result += ($"\"{array[i]}\" ");
+    }
+    return result;
+}
+

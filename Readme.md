@@ -30,4 +30,4 @@
 
 ## **Блок-схема**
 
-[](https://github.com/Katrin-88/Verification_work/blob/master/BS.drawio.png)
+![блок-схема](https://github.com/Katrin-88/Verification_work/blob/master/BS.drawio.png)

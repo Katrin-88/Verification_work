@@ -30,4 +30,4 @@
 
 ## **Блок-схема**
 
-[]C:\Users\kat_i\Desktop\TestGB\BS.drawio.png
+[](https://github.com/Katrin-88/Verification_work/blob/master/BS.drawio.png)

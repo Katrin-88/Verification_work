@@ -49,3 +49,10 @@ string ShowArray(string[] array)
     return result;
 }
 
+Console.Write($"Input number of words: ");
+int size = Convert.ToInt32(Console.ReadLine());
+string[] startArray = CreateStringArray(size);
+int count = CountOfWords(startArray);
+string[] finishArray = ThreeValueArray(startArray, count);
+string result = ShowArray(finishArray);
+Console.WriteLine($"New array is: {result}");
